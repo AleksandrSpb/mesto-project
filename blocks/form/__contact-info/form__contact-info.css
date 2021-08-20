@@ -1,0 +1,11 @@
+.form__contact-info {
+    padding-top: 47px;
+    padding-left: 36px;
+}
+
+@media screen and (max-width: 600px) {
+    .form__contact-info {
+        padding-top: 73px;
+        padding-left: 39px;
+    }
+}

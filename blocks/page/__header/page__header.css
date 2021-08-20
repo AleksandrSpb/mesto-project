@@ -1,0 +1,11 @@
+.page__header {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+@media screen and (max-width: 600px) {
+    .page__header {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}

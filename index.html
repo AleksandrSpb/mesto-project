@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link href="pages/index.css" rel="stylesheet">
+    <title>Mesto</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+</head>
+<body class="body">
+<div class="page">
+    <div class="container page__container">
+        <!--todo header-->
+        <section class="header page__header">
+            <div class="header__logo"></div>
+            <div class="header__line">
+            </div>
+        </section>
+        <main class="content">
+            <!--todo profile-->
+            <section class="profile page__profile">
+                <img alt="Аватар профиля" class="profile__avatar" src="/images/Avatar.png">
+                <div class="profile__title">
+                    <h1 class="profile__name">Жак-Ив Кусто</h1>
+                    <div class="profile__edit-button">
+                        <a class="profile__edit-button-link" href="#"></a>
+                    </div>
+                    <p class="profile__description">Исследователь океана</p>
+                </div>
+                <a class="profile__add-button-link" href="#">
+                    <div class="profile__add-button">
+                        <div class="profile__decorative-element"></div>
+                    </div>
+                </a>
+            </section>
+            <!--todo Elements-->
+            <section class="elements page__elements">
+                <div class="elements__element">
+                    <div class="elements__substrate">
+                        <div class="elements__img"></div>
+                        <div class="elements__signature">
+                            <p class="elements__title">Горно Хребетский район</p>
+                            <!--todo ограничить поле ввода-->
+                            <a class="elements__button-like" href="#"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="elements__element">
+                    <div class="elements__substrate">
+                        <div class="elements__img"></div>
+                        <div class="elements__signature">
+                            <p class="elements__title">Карачаевск</p>
+                            <a class="elements__button-like" href="#"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="elements__element">
+                    <div class="elements__substrate">
+                        <div class="elements__img"></div>
+                        <div class="elements__signature">
+                            <p class="elements__title">Карачаевск</p>
+                            <a class="elements__button-like" href="#"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="elements__element">
+                    <div class="elements__substrate">
+                        <div class="elements__img"></div>
+                        <div class="elements__signature">
+                            <p class="elements__title">Карачаевск</p>
+                            <a class="elements__button-like" href="#"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="elements__element">
+                    <div class="elements__substrate">
+                        <div class="elements__img"></div>
+                        <div class="elements__signature">
+                            <p class="elements__title">Карачаевск</p>
+                            <a class="elements__button-like" href="#"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="elements__element">
+                    <div class="elements__substrate">
+                        <div class="elements__img"></div>
+                        <div class="elements__signature">
+                            <p class="elements__title">Карачаевск</p>
+                            <a class="elements__button-like" href="#"></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--todo footer-->
+            <footer class="footer page__footer">
+                <p class="footer__copyright">© 2020 Mesto Russia</p>
+            </footer>
+        </main>
+    </div>
+</div>
+<!--todo form-->
+<div class="popup">
+    <form class="form page__form">
+        <button class="form__close"></button>
+        <h2 class="form__title">Редактировать профиль</h2>
+        <div class="form__contact-info">
+            <input class="form__text-box" name="firstname" type="text" value="Жак-Ив Кусто">
+            <input class="form__text-box" name="firstname" type="text" value="Исследователь океана">
+        </div>
+        <button class="form__send" type="submit">Сохранить</button>
+    </form>
+</div>
+</body>
+</html>

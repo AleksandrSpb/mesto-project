@@ -1,0 +1,6 @@
+.elements__signature {
+    display: flex;
+    align-content: stretch;
+    align-items: center;
+    justify-content: space-between;
+}
