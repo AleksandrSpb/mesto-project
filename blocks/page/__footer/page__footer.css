@@ -1,11 +1,10 @@
 .page__footer {
-    margin: auto;
+    margin: 67px auto 60px;
 }
 
 @media screen and (max-width: 986px) {
     .page__footer {
-        margin-left: calc((100% - 581px) / 2);
-        margin-right: calc((100% - 581px) / 2);
+        margin: 48px calc((100% - 581px) / 2) 36px;
     }
 }
 
