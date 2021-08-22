@@ -1,4 +1,4 @@
-.form__send {
+.popup__send {
     display: block;
     font-style: normal;
     font-weight: normal;
@@ -16,12 +16,12 @@
     margin-top: 25px;
 }
 
-.form__send:hover {
+.popup__send:hover {
     opacity: 0.8;
 }
 
 @media screen and (max-width: 600px) {
-    .form__send {
+    .popup__send {
         width: 238px;
         height: 46px;
         font-size: 14px;

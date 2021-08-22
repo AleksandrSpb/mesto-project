@@ -1,5 +1,5 @@
 .header__line {
-    background-image: url("/images/Line.png");
+    background-image: url("../../../images/Line.svg");
     background-color: #c7b39b;
     width: auto;
     height: 1px;

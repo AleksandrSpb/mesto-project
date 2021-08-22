@@ -1,4 +1,4 @@
-.form__text-box {
+.popup__text-box {
     display: block;
     margin-bottom: 22px;
     font-style: normal;
@@ -17,7 +17,7 @@
 }
 
 @media screen and (max-width: 600px) {
-    .form__text-box {
+    .popup__text-box {
         width: 238px;
     }
 }

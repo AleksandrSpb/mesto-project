@@ -8,8 +8,8 @@
     margin-block-start: 0;
     margin-block-end: 0;
     white-space: nowrap; /* Отменяем перенос текста */
-    overflow: hidden; /* Обрезаем содержимое */
-    text-overflow: ellipsis;
+    /*overflow: hidden; !* Обрезаем содержимое *!
+    text-overflow: ellipsis;*/
 }
 
 @media screen and (max-width: 930px) {

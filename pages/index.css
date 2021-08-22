@@ -49,12 +49,12 @@
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 
-/*form*/
-@import url(../blocks/form/form.css);
-@import url(../blocks/form/__title/form__title.css);
-@import url(../blocks/form/__send/form__send.css);
-@import url(../blocks/form/__text-box/form__text-box.css);
-@import url(../blocks/form/__contact-info/form__contact-info.css);
-@import url(../blocks/form/__close/form__close.css);
-@import url(../blocks/form/popup/popup.css);
-@import url(../blocks/form/popup_opened/popup_opened.css);
+/*popup*/
+@import url(../blocks/popup/__container/popup__container.css);
+@import url(../blocks/popup/__title/popup__title.css);
+@import url(../blocks/popup/__send/popup__send.css);
+@import url(../blocks/popup/__text-box/popup__text-box.css);
+@import url(../blocks/popup/__contact-info/popup__contact-info.css);
+@import url(../blocks/popup/__close/popup__close.css);
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/popup_opened/popup_opened.css);
