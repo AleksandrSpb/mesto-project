@@ -9,4 +9,5 @@
     overflow: hidden; /* Обрезаем содержимое */
     text-overflow: ellipsis;
     flex: 2;
+    max-width: 210px;
 }

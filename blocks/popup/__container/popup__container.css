@@ -1,5 +1,6 @@
 .popup__container {
-    background-image: url("../../../images/Rectangle_form.png");
+    background-color: #FFFFFF;
+    border-radius: 10px;
     width: 430px;
     height: 330px;
     display: flex;
@@ -14,8 +15,7 @@
 
 @media screen and (max-width: 600px) {
     .popup__container {
-        background-image: url("../../../images/Rectangle_form_m.png");
-        width: 320px;
-        height: 372px;
+        width: 282px;
+        height: 322px;
     }
 }

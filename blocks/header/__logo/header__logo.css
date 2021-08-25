@@ -6,7 +6,7 @@
 
 @media screen and (max-width: 600px) {
     .header__logo {
-        background-image: url("../../../images/logo_m.svg");
+        /*background-image: url("../../../images/logo_m.svg");*/
         Width: 104px;
         Height: 24px;
         object-fit: cover;
