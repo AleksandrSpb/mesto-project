@@ -12,7 +12,6 @@
     z-index: 2;
     position: fixed;
     box-sizing: border-box;
-    flex-basis: content;
     height: min-content;
 }
 
