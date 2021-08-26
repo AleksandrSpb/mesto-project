@@ -2,6 +2,7 @@
 @import url('../vendor/fonts/fonts.css');
 /*body*/
 @import url('../blocks/body/body.css');
+@import url(../blocks/body/__popup/body__popup.css);
 
 /*page*/
 @import url(../blocks/page/page.css);
@@ -10,7 +11,6 @@
 @import url(../blocks/page/__profile/page__profile.css);
 @import url(../blocks/page/__elements/page__elements.css);
 @import url(../blocks/page/__footer/page__footer.css);
-@import url(../blocks/page/__popup/page__popup.css);
 
 /*container*/
 @import url(../blocks/container/container.css);
